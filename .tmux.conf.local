@@ -180,7 +180,7 @@ tmux_conf_theme_right_separator_sub=''  #   PowerlineSymbols.otf font
 #     - #{username_ssh}
 tmux_conf_theme_status_left=' ❐ #S | ↑#{?uptime_d, #{uptime_d}d,}#{?uptime_h, #{uptime_h}h,}#{?uptime_m, #{uptime_m}m,}'
 # tmux_conf_theme_status_right='#($HOME/Dropbox/code/weather-forecastio.sh) , #{prefix}#{pairing}#{synchronized} #{?battery_status, #{battery_status},}#{?battery_bar, #{battery_bar},}#{?battery_percentage, #{battery_percentage},} , %R , %d %b | #{username}#{root} "
-tmux_conf_theme_status_right='#($HOME/Dropbox/code/weather-forecastio.sh) , #{prefix}#{pairing}#{synchronized} #{?battery_status, #{battery_status},}#{?battery_bar, #{battery_bar},}#{?battery_percentage, #{battery_percentage},} , %a , %F#[fg=green]#($TMUX_PLUGIN_MANAGER_PATH/tmux-mem-cpu-load/tmux-mem-cpu-load --colors --powerline-right --interval 2)#[default]'
+tmux_conf_theme_status_right='#($HOME/Dropbox/code/weather-forecastio.sh) , #{prefix}#{pairing}#{synchronized} #{?battery_status, #{battery_status},}#{?battery_bar, #{battery_bar},}#{?battery_percentage, #{battery_percentage},} | %Y-%m-%d %a %H:%M'
 
 # status left style
 tmux_conf_theme_status_left_fg='#000000,#e4e4e4,#e4e4e4'  # black, white , white
