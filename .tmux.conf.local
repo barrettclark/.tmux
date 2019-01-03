@@ -54,7 +54,8 @@ tmux_conf_theme_window_bg='default'
 tmux_conf_theme_highlight_focused_pane=false
 
 # focused pane colours:
-tmux_conf_theme_focused_pane_fg='default'
+# tmux_conf_theme_focused_pane_fg='default'
+tmux_conf_theme_focused_pane_fg='#a3a9ac'
 tmux_conf_theme_focused_pane_bg='#0087d7'               # light blue
 
 # pane border style, possible values are:
@@ -63,12 +64,16 @@ tmux_conf_theme_focused_pane_bg='#0087d7'               # light blue
 tmux_conf_theme_pane_border_style=thin
 
 # pane borders colours:
-tmux_conf_theme_pane_border='#444444'                   # gray
-tmux_conf_theme_pane_active_border='#00afff'            # light blue
+# tmux_conf_theme_pane_border='#444444'                   # gray
+# tmux_conf_theme_pane_active_border='#00afff'            # light blue
+tmux_conf_theme_pane_border='#a3a9ac'                   # gray
+tmux_conf_theme_pane_active_border='#4d1979'            # light blue
 
 # pane indicator colours
-tmux_conf_theme_pane_indicator='#00afff'                # light blue
-tmux_conf_theme_pane_active_indicator='#00afff'         # light blue
+# tmux_conf_theme_pane_indicator='#00afff'                # light blue
+# tmux_conf_theme_pane_active_indicator='#00afff'         # light blue
+tmux_conf_theme_pane_indicator='#4d1979'                # light blue
+tmux_conf_theme_pane_active_indicator='#4d1979'         # light blue
 
 # status line style
 tmux_conf_theme_message_fg='#000000'                    # black
